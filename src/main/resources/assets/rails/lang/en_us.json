@@ -1,0 +1,21 @@
+{
+  "block.rails.rail": "Rail",
+  "block.rails.exposed_rail": "Exposed Rail",
+  "block.rails.weathered_rail": "Weathered Rail",
+  "block.rails.oxidized_rail": "Oxidized Rail",
+  "block.rails.waxed_exposed_rail": "Waxed Exposed Rail",
+  "block.rails.waxed_weathered_rail": "Waxed Weathered Rail",
+  "block.rails.waxed_oxidized_rail": "Waxed Oxidized Rail",
+
+  "block.rails.powered_rail": "Powered Rail",
+  "block.rails.exposed_powered_rail": "Exposed Powered Rail",
+  "block.rails.weathered_powered_rail": "Weathered Powered Rail",
+  "block.rails.oxidized_powered_rail": "Oxidized Powered Rail",
+  "block.rails.waxed_exposed_powered_rail": "Waxed Exposed Powered Rail",
+  "block.rails.waxed_weathered_powered_rail": "Waxed Weathered Powered Rail",
+  "block.rails.waxed_oxidized_powered_rail": "Waxed Oxidized Powered Rail",
+
+  "block.rails.self_powered_rail": "Self-Powered Rail",
+
+  "itemgroup.rails.rail_blocks" : "Rails"
+}

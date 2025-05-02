@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "powered_rail",
+  "key": {
+    "#": "minecraft:rail",
+    "R": "minecraft:redstone",
+    "X": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "X#X",
+    "R#R",
+    "X#X"
+  ],
+  "result": {
+    "count": 3,
+    "id": "minecraft:powered_rail"
+  }
+}

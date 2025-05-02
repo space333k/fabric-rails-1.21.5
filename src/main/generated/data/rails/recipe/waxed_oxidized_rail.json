@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "rails:oxidized_rail",
+    "minecraft:honeycomb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "rails:waxed_oxidized_rail"
+  }
+}

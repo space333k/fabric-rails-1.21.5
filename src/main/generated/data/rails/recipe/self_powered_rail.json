@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "self_powered_rail",
+  "key": {
+    "G": "minecraft:gold_ingot",
+    "R": "minecraft:redstone_block",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "GRG",
+    "GSG",
+    "GRG"
+  ],
+  "result": {
+    "count": 3,
+    "id": "rails:self_powered_rail"
+  }
+}

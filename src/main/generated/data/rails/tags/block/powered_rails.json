@@ -1,0 +1,13 @@
+{
+  "values": [
+    "rails:powered_rail",
+    "rails:exposed_powered_rail",
+    "rails:weathered_powered_rail",
+    "rails:oxidized_powered_rail",
+    "minecraft:powered_rail",
+    "rails:waxed_exposed_powered_rail",
+    "rails:waxed_weathered_powered_rail",
+    "rails:waxed_oxidized_powered_rail",
+    "rails:self_powered_rail"
+  ]
+}

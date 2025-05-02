@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/rail_flat",
+  "textures": {
+    "rail": "rails:block/waxed_oxidized_powered_rail"
+  }
+}

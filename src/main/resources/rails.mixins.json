@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "net.space333.rails.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin",
+		"MinecartControllerMixin",
+		"PoweredRailBlockMixin",
+		"AbstractMinecartEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
