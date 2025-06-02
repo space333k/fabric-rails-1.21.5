@@ -49,13 +49,13 @@ public abstract class MinecartControllerMixin extends MinecartController {
         BlockPos blockPos = this.getRailOrMinecartPos();
         BlockState blockState = this.getWorld().getBlockState(blockPos);
 
-        if(blockState.isOf(ModBlocks.EXPOSED_RAIL) || blockState.isOf(ModBlocks.WAXED_EXPOSED_RAIL)) {
+        if(blockState.isIn(ModTags.Blocks.EXPOSED_RAILS)) {
             maxSpeed = maxSpeed*6/8;
         }
-        else if(blockState.isOf(ModBlocks.WEATHERED_RAIL) || blockState.isOf(ModBlocks.WAXED_WEATHERED_RAIL)) {
+        else if(blockState.isIn(ModTags.Blocks.WEATHERED_RAILS)) {
             maxSpeed = maxSpeed*4/8;
         }
-        else if(blockState.isOf(ModBlocks.OXIDIZED_RAIL) || blockState.isOf(ModBlocks.WAXED_OXIDIZED_RAIL)) {
+        else if(blockState.isIn(ModTags.Blocks.OXIDIZED_RAILS)) {
             maxSpeed = maxSpeed*2/8;
         }
         else if(blockState.isOf(ModBlocks.POWERED_RAIL) || blockState.isOf(Blocks.POWERED_RAIL)) {

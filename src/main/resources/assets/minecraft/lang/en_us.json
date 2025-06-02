@@ -1,4 +1,6 @@
 {
   "block.minecraft.rail": "Waxed Rail",
-  "block.minecraft.powered_rail": "Waxed Powered Rail"
+  "block.minecraft.powered_rail": "Waxed Powered Rail",
+  "block.minecraft.detector_rail": "Waxed Detector Rail",
+  "block.minecraft.activator_rail": "Waxed Activator Rail"
 }

@@ -1,3 +1,7 @@
 // 1.21.5	-999999999-01-01T00:00:00	rails/Tags for minecraft:block
-f25cb568ecab760be18aa7049f2ad7936e2a36ee data/minecraft/tags/block/rails.json
+14d855f6fcb8573b01053cf761d63d22357dc36e data/minecraft/tags/block/rails.json
+69f83049addab78ad8ba93713f3cf0ae86cff8ea data/rails/tags/block/exposed_rails.json
+0c1977df8119f12d2a50f3a23f9f2e6f2fb39a03 data/rails/tags/block/oxidized_rails.json
 c2177ccee89938f8f2feaeb505fc02b53718bb60 data/rails/tags/block/powered_rails.json
+0dfd4a762dc09617b31fb77f830da8ade83e39fa data/rails/tags/block/unaffected_rails.json
+27f31bc0b794fe6e92015176fd445e7a2388f78e data/rails/tags/block/weathered_rails.json

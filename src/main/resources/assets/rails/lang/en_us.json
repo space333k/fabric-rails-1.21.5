@@ -17,5 +17,21 @@
 
   "block.rails.self_powered_rail": "Self-Powered Rail",
 
+  "block.rails.detector_rail": "Detector Rail",
+  "block.rails.exposed_detector_rail": "Exposed Detector Rail",
+  "block.rails.weathered_detector_rail": "Weathered Detector Rail",
+  "block.rails.oxidized_detector_rail": "Oxidized Detector Rail",
+  "block.rails.waxed_exposed_detector_rail": "Waxed Exposed Detector Rail",
+  "block.rails.waxed_weathered_detector_rail": "Waxed Weathered Detector Rail",
+  "block.rails.waxed_oxidized_detector_rail": "Waxed Oxidized Detector Rail",
+
+  "block.rails.activator_rail": "Activator Rail",
+  "block.rails.exposed_activator_rail": "Exposed Activator Rail",
+  "block.rails.weathered_activator_rail": "Weathered Activator Rail",
+  "block.rails.oxidized_activator_rail": "Oxidized Activator Rail",
+  "block.rails.waxed_exposed_activator_rail": "Waxed Exposed Activator Rail",
+  "block.rails.waxed_weathered_activator_rail": "Waxed Weathered Activator Rail",
+  "block.rails.waxed_oxidized_activator_rail": "Waxed Oxidized Activator Rail",
+
   "itemgroup.rails.rail_blocks" : "Rails"
 }

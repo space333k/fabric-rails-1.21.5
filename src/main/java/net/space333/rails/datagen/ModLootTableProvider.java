@@ -42,5 +42,21 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.WAXED_OXIDIZED_POWERED_RAIL);
 
         addDrop(ModBlocks.SELF_POWERED_RAIL);
+
+        addDrop(ModBlocks.DETECTOR_RAIL);
+        addDrop(ModBlocks.EXPOSED_DETECTOR_RAIL);
+        addDrop(ModBlocks.WEATHERED_DETECTOR_RAIL);
+        addDrop(ModBlocks.OXIDIZED_DETECTOR_RAIL);
+        addDrop(ModBlocks.WAXED_EXPOSED_DETECTOR_RAIL);
+        addDrop(ModBlocks.WAXED_WEATHERED_DETECTOR_RAIL);
+        addDrop(ModBlocks.WAXED_OXIDIZED_DETECTOR_RAIL);
+
+        addDrop(ModBlocks.ACTIVATOR_RAIL);
+        addDrop(ModBlocks.EXPOSED_ACTIVATOR_RAIL);
+        addDrop(ModBlocks.WEATHERED_ACTIVATOR_RAIL);
+        addDrop(ModBlocks.OXIDIZED_ACTIVATOR_RAIL);
+        addDrop(ModBlocks.WAXED_EXPOSED_ACTIVATOR_RAIL);
+        addDrop(ModBlocks.WAXED_WEATHERED_ACTIVATOR_RAIL);
+        addDrop(ModBlocks.WAXED_OXIDIZED_ACTIVATOR_RAIL);
     }
 }

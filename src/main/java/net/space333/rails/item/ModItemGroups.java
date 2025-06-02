@@ -20,8 +20,6 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.rails.rail_blocks"))
                     .entries((displayContext, entries) -> {
                         entries.add(Items.MINECART);
-                        entries.add(Blocks.ACTIVATOR_RAIL);
-                        entries.add(Blocks.DETECTOR_RAIL);
                         entries.add(ModBlocks.RAIL);
                         entries.add(ModBlocks.EXPOSED_RAIL);
                         entries.add(ModBlocks.WEATHERED_RAIL);
@@ -39,6 +37,22 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WAXED_WEATHERED_POWERED_RAIL);
                         entries.add(ModBlocks.WAXED_OXIDIZED_POWERED_RAIL);
                         entries.add(ModBlocks.SELF_POWERED_RAIL);
+                        entries.add(ModBlocks.ACTIVATOR_RAIL);
+                        entries.add(ModBlocks.EXPOSED_ACTIVATOR_RAIL);
+                        entries.add(ModBlocks.WEATHERED_ACTIVATOR_RAIL);
+                        entries.add(ModBlocks.OXIDIZED_ACTIVATOR_RAIL);
+                        entries.add(Blocks.ACTIVATOR_RAIL);
+                        entries.add(ModBlocks.WAXED_EXPOSED_ACTIVATOR_RAIL);
+                        entries.add(ModBlocks.WAXED_WEATHERED_ACTIVATOR_RAIL);
+                        entries.add(ModBlocks.WAXED_OXIDIZED_ACTIVATOR_RAIL);
+                        entries.add(ModBlocks.DETECTOR_RAIL);
+                        entries.add(ModBlocks.EXPOSED_DETECTOR_RAIL);
+                        entries.add(ModBlocks.WEATHERED_DETECTOR_RAIL);
+                        entries.add(ModBlocks.OXIDIZED_DETECTOR_RAIL);
+                        entries.add(Blocks.DETECTOR_RAIL);
+                        entries.add(ModBlocks.WAXED_EXPOSED_DETECTOR_RAIL);
+                        entries.add(ModBlocks.WAXED_WEATHERED_DETECTOR_RAIL);
+                        entries.add(ModBlocks.WAXED_OXIDIZED_DETECTOR_RAIL);
                     }).build());
 
     public static void registerItemGroups() {

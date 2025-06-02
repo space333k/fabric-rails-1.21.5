@@ -30,6 +30,22 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerStraightRail(ModBlocks.WAXED_OXIDIZED_POWERED_RAIL);
 
         blockStateModelGenerator.registerStraightRail(ModBlocks.SELF_POWERED_RAIL);
+
+        blockStateModelGenerator.registerStraightRail(ModBlocks.DETECTOR_RAIL);
+        blockStateModelGenerator.registerStraightRail(ModBlocks.EXPOSED_DETECTOR_RAIL);
+        blockStateModelGenerator.registerStraightRail(ModBlocks.WEATHERED_DETECTOR_RAIL);
+        blockStateModelGenerator.registerStraightRail(ModBlocks.OXIDIZED_DETECTOR_RAIL);
+        blockStateModelGenerator.registerStraightRail(ModBlocks.WAXED_EXPOSED_DETECTOR_RAIL);
+        blockStateModelGenerator.registerStraightRail(ModBlocks.WAXED_WEATHERED_DETECTOR_RAIL);
+        blockStateModelGenerator.registerStraightRail(ModBlocks.WAXED_OXIDIZED_DETECTOR_RAIL);
+
+        blockStateModelGenerator.registerStraightRail(ModBlocks.ACTIVATOR_RAIL);
+        blockStateModelGenerator.registerStraightRail(ModBlocks.EXPOSED_ACTIVATOR_RAIL);
+        blockStateModelGenerator.registerStraightRail(ModBlocks.WEATHERED_ACTIVATOR_RAIL);
+        blockStateModelGenerator.registerStraightRail(ModBlocks.OXIDIZED_ACTIVATOR_RAIL);
+        blockStateModelGenerator.registerStraightRail(ModBlocks.WAXED_EXPOSED_ACTIVATOR_RAIL);
+        blockStateModelGenerator.registerStraightRail(ModBlocks.WAXED_WEATHERED_ACTIVATOR_RAIL);
+        blockStateModelGenerator.registerStraightRail(ModBlocks.WAXED_OXIDIZED_ACTIVATOR_RAIL);
     }
 
     @Override

@@ -4,7 +4,6 @@ import net.fabricmc.api.ModInitializer;
 
 import net.space333.rails.block.ModBlocks;
 import net.space333.rails.item.ModItemGroups;
-import net.space333.rails.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,7 +15,6 @@ public class Rails implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 
-		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModBlocks.addOxidisableBlocks();
 	}

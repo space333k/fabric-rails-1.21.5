@@ -14,6 +14,20 @@
     "rails:waxed_exposed_powered_rail",
     "rails:waxed_weathered_powered_rail",
     "rails:waxed_oxidized_powered_rail",
-    "rails:self_powered_rail"
+    "rails:self_powered_rail",
+    "rails:detector_rail",
+    "rails:exposed_detector_rail",
+    "rails:weathered_detector_rail",
+    "rails:oxidized_detector_rail",
+    "rails:waxed_exposed_detector_rail",
+    "rails:waxed_weathered_detector_rail",
+    "rails:waxed_oxidized_detector_rail",
+    "rails:activator_rail",
+    "rails:exposed_activator_rail",
+    "rails:weathered_activator_rail",
+    "rails:oxidized_activator_rail",
+    "rails:waxed_exposed_activator_rail",
+    "rails:waxed_weathered_activator_rail",
+    "rails:waxed_oxidized_activator_rail"
   ]
 }

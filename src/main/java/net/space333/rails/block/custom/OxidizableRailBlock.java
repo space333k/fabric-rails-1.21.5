@@ -19,8 +19,8 @@ public class OxidizableRailBlock extends RailBlock implements Oxidizable {
 	private final OxidationLevel oxidationLevel;
 	/*
 	@Override
-	public MapCodec<? extends RailBlock> getCodec() {
-		return OxidizableRailBlock.CODEC;
+	public MapCodec<OxidizableRailBlock> getCodec() {
+		return CODEC;
 	}
 	*/
 

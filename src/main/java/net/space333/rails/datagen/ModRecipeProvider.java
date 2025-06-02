@@ -258,6 +258,162 @@ public class ModRecipeProvider  extends FabricRecipeProvider {
                         .group("self_powered_rail")
                         .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
                         .offerTo(recipeExporter);
+
+                createShapeless(RecipeCategory.TRANSPORTATION, ModBlocks.DETECTOR_RAIL)
+                        .input(Items.STONE_PRESSURE_PLATE)
+                        .input(Items.REDSTONE)
+                        .input(ModBlocks.RAIL)
+                        .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
+                        .offerTo(recipeExporter);
+                createShapeless(RecipeCategory.TRANSPORTATION, ModBlocks.EXPOSED_DETECTOR_RAIL)
+                        .input(Items.STONE_PRESSURE_PLATE)
+                        .input(Items.REDSTONE)
+                        .input(ModBlocks.EXPOSED_RAIL)
+                        .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
+                        .offerTo(recipeExporter);
+                createShapeless(RecipeCategory.TRANSPORTATION, ModBlocks.WEATHERED_DETECTOR_RAIL)
+                        .input(Items.STONE_PRESSURE_PLATE)
+                        .input(Items.REDSTONE)
+                        .input(ModBlocks.WEATHERED_RAIL)
+                        .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
+                        .offerTo(recipeExporter);
+                createShapeless(RecipeCategory.TRANSPORTATION, ModBlocks.OXIDIZED_DETECTOR_RAIL)
+                        .input(Items.STONE_PRESSURE_PLATE)
+                        .input(Items.REDSTONE)
+                        .input(ModBlocks.OXIDIZED_RAIL)
+                        .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
+                        .offerTo(recipeExporter);
+                createShapeless(RecipeCategory.TRANSPORTATION, Blocks.DETECTOR_RAIL)
+                        .input(Items.STONE_PRESSURE_PLATE)
+                        .input(Items.REDSTONE)
+                        .input(Blocks.RAIL)
+                        .group("waxed_detector_rail")
+                        .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
+                        .offerTo(recipeExporter, String.valueOf(Identifier.of("rails", "waxed_detector_rail_from_waxed_rail")));
+                createShapeless(RecipeCategory.TRANSPORTATION, ModBlocks.WAXED_EXPOSED_DETECTOR_RAIL)
+                        .input(Items.STONE_PRESSURE_PLATE)
+                        .input(Items.REDSTONE)
+                        .input(ModBlocks.WAXED_EXPOSED_RAIL)
+                        .group("waxed_exposed_detector_rail")
+                        .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
+                        .offerTo(recipeExporter, String.valueOf(Identifier.of("rails", "waxed_exposed_detector_rail_from_waxed_exposed_rail")));
+                createShapeless(RecipeCategory.TRANSPORTATION, ModBlocks.WAXED_WEATHERED_DETECTOR_RAIL)
+                        .input(Items.STONE_PRESSURE_PLATE)
+                        .input(Items.REDSTONE)
+                        .input(ModBlocks.WAXED_WEATHERED_RAIL)
+                        .group("waxed_weathered_detector_rail")
+                        .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
+                        .offerTo(recipeExporter, String.valueOf(Identifier.of("rails", "waxed_weathered_detector_rail_from_waxed_weathered_rail")));
+                createShapeless(RecipeCategory.TRANSPORTATION, ModBlocks.WAXED_OXIDIZED_DETECTOR_RAIL)
+                        .input(Items.STONE_PRESSURE_PLATE)
+                        .input(Items.REDSTONE)
+                        .input(ModBlocks.WAXED_OXIDIZED_RAIL)
+                        .group("waxed_oxidized_detector_rail")
+                        .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
+                        .offerTo(recipeExporter,String.valueOf(Identifier.of("rails", "waxed_oxidized_detector_rail_from_waxed_oxidized_rail")));
+
+                createShapeless(RecipeCategory.TRANSPORTATION, Blocks.DETECTOR_RAIL)
+                        .input(ModBlocks.DETECTOR_RAIL)
+                        .input(Items.HONEYCOMB)
+                        .group("waxed_detector_rail")
+                        .criterion(hasItem(Items.HONEYCOMB), conditionsFromItem(Items.HONEYCOMB))
+                        .offerTo(recipeExporter, String.valueOf(Identifier.of("rails", "waxed_detector_rail_from_wax")));
+                createShapeless(RecipeCategory.TRANSPORTATION, ModBlocks.WAXED_EXPOSED_DETECTOR_RAIL)
+                        .input(ModBlocks.EXPOSED_DETECTOR_RAIL)
+                        .input(Items.HONEYCOMB)
+                        .group("waxed_exposed_detector_rail")
+                        .criterion(hasItem(Items.HONEYCOMB), conditionsFromItem(Items.HONEYCOMB))
+                        .offerTo(recipeExporter, String.valueOf(Identifier.of("rails", "waxed_exposed_detector_rail_from_wax")));
+                createShapeless(RecipeCategory.TRANSPORTATION, ModBlocks.WAXED_WEATHERED_DETECTOR_RAIL)
+                        .input(ModBlocks.WEATHERED_DETECTOR_RAIL)
+                        .input(Items.HONEYCOMB)
+                        .group("waxed_weathered_detector_rail")
+                        .criterion(hasItem(Items.HONEYCOMB), conditionsFromItem(Items.HONEYCOMB))
+                        .offerTo(recipeExporter, String.valueOf(Identifier.of("rails", "waxed_weathered_detector_rail_from_wax")));
+                createShapeless(RecipeCategory.TRANSPORTATION, ModBlocks.WAXED_OXIDIZED_DETECTOR_RAIL)
+                        .input(ModBlocks.OXIDIZED_DETECTOR_RAIL)
+                        .input(Items.HONEYCOMB)
+                        .group("waxed_oxidized_detector_rail")
+                        .criterion(hasItem(Items.HONEYCOMB), conditionsFromItem(Items.HONEYCOMB))
+                        .offerTo(recipeExporter, String.valueOf(Identifier.of("rails", "waxed_oxidized_detector_rail_from_wax")));
+
+                createShapeless(RecipeCategory.TRANSPORTATION, ModBlocks.ACTIVATOR_RAIL)
+                        .input(Items.STONE_PRESSURE_PLATE)
+                        .input(Items.REDSTONE)
+                        .input(ModBlocks.ACTIVATOR_RAIL)
+                        .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
+                        .offerTo(recipeExporter);
+                createShapeless(RecipeCategory.TRANSPORTATION, ModBlocks.EXPOSED_ACTIVATOR_RAIL)
+                        .input(Items.STONE_PRESSURE_PLATE)
+                        .input(Items.REDSTONE)
+                        .input(ModBlocks.EXPOSED_RAIL)
+                        .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
+                        .offerTo(recipeExporter);
+                createShapeless(RecipeCategory.TRANSPORTATION, ModBlocks.WEATHERED_ACTIVATOR_RAIL)
+                        .input(Items.STONE_PRESSURE_PLATE)
+                        .input(Items.REDSTONE)
+                        .input(ModBlocks.WEATHERED_RAIL)
+                        .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
+                        .offerTo(recipeExporter);
+                createShapeless(RecipeCategory.TRANSPORTATION, ModBlocks.OXIDIZED_ACTIVATOR_RAIL)
+                        .input(Items.STONE_PRESSURE_PLATE)
+                        .input(Items.REDSTONE)
+                        .input(ModBlocks.OXIDIZED_RAIL)
+                        .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
+                        .offerTo(recipeExporter);
+                createShapeless(RecipeCategory.TRANSPORTATION, Blocks.ACTIVATOR_RAIL)
+                        .input(Items.STONE_PRESSURE_PLATE)
+                        .input(Items.REDSTONE)
+                        .input(Blocks.RAIL)
+                        .group("waxed_activator_rail")
+                        .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
+                        .offerTo(recipeExporter, String.valueOf(Identifier.of("rails", "waxed_activator_rail_from_waxed_rail")));
+                createShapeless(RecipeCategory.TRANSPORTATION, ModBlocks.WAXED_EXPOSED_ACTIVATOR_RAIL)
+                        .input(Items.STONE_PRESSURE_PLATE)
+                        .input(Items.REDSTONE)
+                        .input(ModBlocks.WAXED_EXPOSED_RAIL)
+                        .group("waxed_exposed_activator_rail")
+                        .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
+                        .offerTo(recipeExporter, String.valueOf(Identifier.of("rails", "waxed_exposed_activator_rail_from_waxed_exposed_rail")));
+                createShapeless(RecipeCategory.TRANSPORTATION, ModBlocks.WAXED_WEATHERED_ACTIVATOR_RAIL)
+                        .input(Items.STONE_PRESSURE_PLATE)
+                        .input(Items.REDSTONE)
+                        .input(ModBlocks.WAXED_WEATHERED_RAIL)
+                        .group("waxed_weathered_activator_rail")
+                        .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
+                        .offerTo(recipeExporter, String.valueOf(Identifier.of("rails", "waxed_weathered_activator_rail_from_waxed_weathered_rail")));
+                createShapeless(RecipeCategory.TRANSPORTATION, ModBlocks.WAXED_OXIDIZED_ACTIVATOR_RAIL)
+                        .input(Items.STONE_PRESSURE_PLATE)
+                        .input(Items.REDSTONE)
+                        .input(ModBlocks.WAXED_OXIDIZED_RAIL)
+                        .group("waxed_oxidized_activator_rail")
+                        .criterion(hasItem(Items.REDSTONE), conditionsFromItem(Items.REDSTONE))
+                        .offerTo(recipeExporter,String.valueOf(Identifier.of("rails", "waxed_oxidized_activator_rail_from_waxed_oxidized_rail")));
+
+                createShapeless(RecipeCategory.TRANSPORTATION, Blocks.ACTIVATOR_RAIL)
+                        .input(ModBlocks.ACTIVATOR_RAIL)
+                        .input(Items.HONEYCOMB)
+                        .group("waxed_activator_rail")
+                        .criterion(hasItem(Items.HONEYCOMB), conditionsFromItem(Items.HONEYCOMB))
+                        .offerTo(recipeExporter, String.valueOf(Identifier.of("rails", "waxed_activator_rail_from_wax")));
+                createShapeless(RecipeCategory.TRANSPORTATION, ModBlocks.WAXED_EXPOSED_ACTIVATOR_RAIL)
+                        .input(ModBlocks.EXPOSED_ACTIVATOR_RAIL)
+                        .input(Items.HONEYCOMB)
+                        .group("waxed_exposed_activator_rail")
+                        .criterion(hasItem(Items.HONEYCOMB), conditionsFromItem(Items.HONEYCOMB))
+                        .offerTo(recipeExporter, String.valueOf(Identifier.of("rails", "waxed_exposed_activator_rail_from_wax")));
+                createShapeless(RecipeCategory.TRANSPORTATION, ModBlocks.WAXED_WEATHERED_ACTIVATOR_RAIL)
+                        .input(ModBlocks.WEATHERED_ACTIVATOR_RAIL)
+                        .input(Items.HONEYCOMB)
+                        .group("waxed_weathered_activator_rail")
+                        .criterion(hasItem(Items.HONEYCOMB), conditionsFromItem(Items.HONEYCOMB))
+                        .offerTo(recipeExporter, String.valueOf(Identifier.of("rails", "waxed_weathered_activator_rail_from_wax")));
+                createShapeless(RecipeCategory.TRANSPORTATION, ModBlocks.WAXED_OXIDIZED_ACTIVATOR_RAIL)
+                        .input(ModBlocks.OXIDIZED_ACTIVATOR_RAIL)
+                        .input(Items.HONEYCOMB)
+                        .group("waxed_oxidized_activator_rail")
+                        .criterion(hasItem(Items.HONEYCOMB), conditionsFromItem(Items.HONEYCOMB))
+                        .offerTo(recipeExporter, String.valueOf(Identifier.of("rails", "waxed_oxidized_activator_rail_from_wax")));
             }
         };
     }
